@@ -4,8 +4,6 @@
   //LunchCheckController.inject[$scope];
   function LunchCheckController($scope) {
     $scope.lst = "";
-
-
     $scope.verifyLst = function () {
       var lst = $scope.lst.split(",");
       if($scope.lst == null || $scope.lst.length == 0 || lst == 0){
@@ -24,6 +22,4 @@
       }
     }
   }
-
-
 })();
